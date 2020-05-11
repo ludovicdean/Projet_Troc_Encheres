@@ -4,7 +4,7 @@
 		name="jdbc/pool_cnx"
 		driverClassName="com.mysql.cj.jdbc.Driver" 
 		type="javax.sql.DataSource"
-		url="jdbc:mysql://localhost:3308/liste_courses"
+		url="jdbc:mysql://localhost:3308/encheres"
 		username="trioDeLEtrange"
 		password="mdp"
 		maxTotal="100"
