@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class servletCreationCompte
+ * Servlet implementation class servletMonProfil
  */
-@WebServlet("/servletCreationCompte")
-public class servletCreationCompte extends HttpServlet {
+@WebServlet("/servletMonProfil")
+public class servletMonProfil extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public servletCreationCompte() {
+    public servletMonProfil() {
         super();
     }
 
@@ -25,7 +25,7 @@ public class servletCreationCompte extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/WEB-INF/CreationCompte.jsp").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/MonProfil.jsp").forward(request, response);
 	}
 
 	/**
