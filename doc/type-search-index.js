@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"fr.eni.trocEncheres.bo","l":"Categorie"},{"p":"fr.eni.trocEncheres.bo","l":"Enchere"},{"p":"fr.eni.trocEncheres.bo","l":"Retrait"},{"p":"fr.eni.trocEncheres.bo","l":"Utilisateur"},{"p":"fr.eni.trocEncheres.bo","l":"Vente"}]
