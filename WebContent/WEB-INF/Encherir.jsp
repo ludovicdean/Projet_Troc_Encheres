@@ -14,12 +14,14 @@
 <img>
 <p>PC Gamer pour travailler</p>
 <br>
-<p>Description : </p><br>
-<p>Meilleure offre : </p><br>
-<p>Mise à prix : </p><br>
-<p>Fin de l'enchère : </p><br>
-<p>Retrait : </p><br>
-<p>Vendeur : </p><br>
+<label>Description : </label><br>
+<label>Meilleure offre : </label>
+	<input type="number" name="enchere" id="enchere" min="0"><br>
+<label>Mise à prix : </label>
+<br>
+<label>Fin de l'enchère : </label><br>
+<label>Retrait : </label><br>
+<label>Vendeur : </label><br>
 <label for="maProposition">Ma proposition : </label><br>
 <input type="button" value="Enchérir" name="encherir" id="encherir"><br>
 <input type="button" value="Retour" name="retour" id="retour"><br>
