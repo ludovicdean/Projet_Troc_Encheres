@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class servletAccueilUtilisateur
+ * Servlet implementation class ServletAcquisition
  */
-@WebServlet("/ServletListeEncheres")
-public class ServletListeEncheres extends HttpServlet {
+@WebServlet("/ServletAcquisition")
+public class ServletAcquisition extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public ServletListeEncheres() {
+    public ServletAcquisition() {
         super();
     }
 
@@ -25,7 +25,7 @@ public class ServletListeEncheres extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/WEB-INF/ListeEncheres.jsp").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/Acquisition.jsp").forward(request, response);
 	}
 
 	/**
