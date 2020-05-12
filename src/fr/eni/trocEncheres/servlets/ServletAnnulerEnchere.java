@@ -1,4 +1,4 @@
-package servlets;
+package fr.eni.trocEncheres.servlets;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class servletEditionProfil
+ * Servlet implementation class ServletAnnulerEnchere
  */
-@WebServlet("/ServletEditionProfil")
-public class ServletEditionProfil extends HttpServlet {
+@WebServlet("/ServletAnnulerEnchere")
+public class ServletAnnulerEnchere extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public ServletEditionProfil() {
+    public ServletAnnulerEnchere() {
         super();
     }
 
@@ -25,7 +25,7 @@ public class ServletEditionProfil extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/WEB-INF/EditerMonProfil.jsp").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/AnnulerEnchere.jsp").forward(request, response);
 	}
 
 	/**

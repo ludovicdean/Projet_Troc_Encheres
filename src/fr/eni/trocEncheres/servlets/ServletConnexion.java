@@ -1,4 +1,4 @@
-package servlets;
+package fr.eni.trocEncheres.servlets;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,30 +8,33 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class ServletAnnulerEnchere
+ * Servlet implementation class servletConnexion
  */
-@WebServlet("/ServletAnnulerEnchere")
-public class ServletAnnulerEnchere extends HttpServlet {
+@WebServlet("/ServletConnexion")
+public class ServletConnexion extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public ServletAnnulerEnchere() {
+    public ServletConnexion() {
         super();
+        // TODO Auto-generated constructor stub
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/WEB-INF/AnnulerEnchere.jsp").forward(request, response);
+		// TODO Auto-generated method stub
+		request.getRequestDispatcher("/WEB-INF/Connexion.jsp").forward(request, response);
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 
