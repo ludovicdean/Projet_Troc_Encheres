@@ -7,9 +7,9 @@
 <title>Accueil</title>
 </head>
 <header><h1>TrocEncheres.org</h1></header>
-<a href=""><p>Vendre un article</p></a>
-<a href="/Projet_Troc_Encheres/servletMonProfil"><p>Mon profil</p></a>
-<a href=""><p>Déconnexion</p></a>
+<p><a href="">Vendre un article</a></p>
+<p><a href="/Projet_Troc_Encheres/servletMonProfil">Mon profil</a></p>
+<p><a href="">Déconnexion</a></p>
 
 <h2>Filtres : </h2>
 <p>leTrioDeLEtrange est connecté !</p>
