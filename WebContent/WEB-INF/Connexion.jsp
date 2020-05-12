@@ -24,7 +24,7 @@
 </form>
 <a href=""><p>Mot de passe oublié</p></a>
 <br>
-<a><input type="button" value="Créer un compte"></a>
+<a href="/Projet_Troc_Encheres/servletCreationCompte"><input type="button" value="Créer un compte"></a>
 
 </body>
 </html>

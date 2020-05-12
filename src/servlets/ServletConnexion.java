@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class servletAccueilUtilisateur
+ * Servlet implementation class servletConnexion
  */
-@WebServlet("/servletAccueilUtilisateur")
-public class servletListeEncheres extends HttpServlet {
+@WebServlet("/servletConnexion")
+public class ServletConnexion extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public servletListeEncheres() {
+    public ServletConnexion() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -27,7 +27,7 @@ public class servletListeEncheres extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		request.getRequestDispatcher("/WEB-INF/ListeEncheres.jsp").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/Connexion.jsp").forward(request, response);
 	}
 
 	/**

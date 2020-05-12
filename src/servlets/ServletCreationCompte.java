@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class servletEditionProfil
+ * Servlet implementation class servletCreationCompte
  */
-@WebServlet("/servletEditionProfil")
-public class servletEditionProfil extends HttpServlet {
+@WebServlet("/servletCreationCompte")
+public class ServletCreationCompte extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public servletEditionProfil() {
+    public ServletCreationCompte() {
         super();
     }
 
@@ -25,7 +25,7 @@ public class servletEditionProfil extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/WEB-INF/EditerMonProfil.jsp").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/CreationCompte.jsp").forward(request, response);
 	}
 
 	/**

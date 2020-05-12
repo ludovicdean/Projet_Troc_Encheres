@@ -8,7 +8,7 @@
 </head>
 <header><h1>TrocEncheres.org</h1></header>
 <a href=""><p>Vendre un article</p></a>
-<a href="http://localhost:8081/Projet_Troc_Encheres/servlets/servletMonProfil"><p>Mon profil</p></a>
+<a href="/Projet_Troc_Encheres/servletMonProfil"><p>Mon profil</p></a>
 <a href=""><p>Déconnexion</p></a>
 
 <h2>Filtres : </h2>
@@ -19,22 +19,26 @@
 	<br>
 	<label for="categories">Catégories : </label>
 	<select>
-	<option>Jeux vidéos
-	<option>Jeux de société
-	<option>Jeux de construction
+		<option>Jeux vidéos
+		<option>Jeux de société
+		<option>Jeux de construction
 	</select>
 	<br>
 	<br>
-	<input type="checkbox" value ="mesVentes"><label for="mesVentes">Mes ventes</label>
+	<input type="checkbox" value ="mesVentes">
+		<label for="mesVentes">Mes ventes</label>
 	<br>
 	<br>
-	<input type="checkbox" value ="mesEncheresEnCours"><label for="mesEncheresEnCours">Mes enchères en cours</label>
+	<input type="checkbox" value ="mesEncheresEnCours">
+		<label for="mesEncheresEnCours">Mes enchères en cours</label>
 	<br>
 	<br>
-	<input type="checkbox" value ="mesAcquisitions"><label for="mesAcquisitions">Mes acquisitions</label>
+	<input type="checkbox" value ="mesAcquisitions">
+		<label for="mesAcquisitions">Mes acquisitions</label>
 	<br>
 	<br>
-	<input type="checkbox" value ="autresEncheres"><label for="autresEncheres">Mes autres enchères</label>
+	<input type="checkbox" value ="autresEncheres">
+		<label for="autresEncheres">Mes autres enchères</label>
 	<br>
 	<br>
 </form>
