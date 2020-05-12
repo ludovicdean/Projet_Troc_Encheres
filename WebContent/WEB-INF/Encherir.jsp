@@ -21,7 +21,7 @@
 <p>Retrait : </p><br>
 <p>Vendeur : </p><br>
 <label for="maProposition">Ma proposition : </label><br>
-<input type="button" value="Enchérir"><br>
-<input type="button" value="Retour"><br>
+<input type="button" value="Enchérir" name="encherir" id="encherir"><br>
+<input type="button" value="Retour" name="retour" id=="retour"><br>
 </body>
 </html>
